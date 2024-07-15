@@ -11,7 +11,8 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: black;
 }
 .insideNav{
@@ -32,49 +33,47 @@ body, html {
     
 .carousel {
     width: 100%; /* Adjust as needed */
-    overflow: hidden; /* Hides overflow content */
-    position: relative; /* Needed for absolute positioning inside */
+    overflow: hidden; /* Hide overflow content */
+    position: relative; /* Positioning context for absolute positioning */
   }
   
   .slide {
-    width: 100%; /* Ensure each slide takes full width */
-    display: none; /* Hide all slides initially */
+    width: 100%; /* Full width of carousel */
+    height: 300px; /* Adjust height as needed */
     position: absolute; /* Position slides */
-    left: 0; /* Start from left of carousel */
-    animation: slide-animation 10s infinite; /* Adjust timing as needed */
+    opacity: 0; /* Initially hide slides */
+    animation: slide-animation 9s infinite; /* Adjust animation timing */
   }
   
-  .slide img {
-    width: 100%; /* Ensure images take full width of slides */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
+  /* Keyframes for slide animation */
   @keyframes slide-animation {
     0% {
       opacity: 0;
     }
-    10% {
+    11% {
       opacity: 1;
     }
-    90% {
+    33% {
       opacity: 1;
+    }
+    44% {
+      opacity: 0;
     }
     100% {
       opacity: 0;
     }
   }
   
-  /* Show only the first slide initially */
-  #slide1 {
-    display: block;
+  /* Apply animation delay to each slide */
+  .slide:nth-child(1) {
     animation-delay: 0s;
   }
   
-  #slide2 {
-    animation-delay: 5s; /* Adjust delay to control slide transition */
+  .slide:nth-child(2) {
+    animation-delay: 3s; /* Delayed start for second slide */
   }
   
-  #slide3 {
-    animation-delay: 10s; /* Adjust delay to control slide transition */
+  .slide:nth-child(3) {
+    animation-delay: 6s; /* Delayed start for third slide */
   }
-  
+    
