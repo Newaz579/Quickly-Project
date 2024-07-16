@@ -34,7 +34,16 @@ body, html {
     margin-left: 10px;
 }
     
-
+.getStartedButton{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    outline: none; 
+}
 
 .image-container {
   position: relative;
@@ -235,10 +244,104 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .quicklyCustomerLogo img{
-  margin: 20px;
-  border-radius: 50px;
+  margin: 10px;
   margin-top: 80px;
+  background-color: aliceblue;
+}
+
+.quicklySupport{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.supportSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleSupport1{
+  width: 350px;
+  height: 300px;
+  background-color: aqua;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.singleSupport2{
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.singleSupport3{
+  width: 350px;
+  height: 300px;
+  background-color: rgb(17, 148, 255);
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.singleSupport4{
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.singleSupport1 i{
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.singleSupport2 i{
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.singleSupport3 i{
+  font-size: 50px;
+  margin-top: 40px;
+}
+.singleSupport4 i{
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+/* footer section  */
+.footerSection{
+  background-color: black;
+  width: 100%; 
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 60px;
+}
+
+
+.footerDiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
