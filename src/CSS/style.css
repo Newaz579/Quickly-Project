@@ -9,7 +9,7 @@ body, html {
     position: fixed;
     top: 0;
     z-index: 1000;
-    width: 95.3%;
+    width: 95.4%;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -62,12 +62,12 @@ body, html {
   
     background-color: transparent;
     border: 1px solid white;
-    border-radius: 5px; /* Adjust border radius as needed */
-    color: white; /* Text color */
-    padding: 10px 20px; /* Padding inside the button */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    outline: none; /* Remove default focus outline */
+    border-radius: 5px; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    outline: none; 
 
 }
 
@@ -78,8 +78,8 @@ body, html {
 
 .image-container img {
   display: block;
-    width: auto; /* Let the width adjust automatically */
-    max-height: 660px; /* Set maximum height as needed */
+    width: auto;
+    max-height: 660px;
     height: auto;
 }
 
@@ -116,4 +116,129 @@ body, html {
   margin: auto;
   width: 85%;
   margin-top: 60px;
+}
+
+.articleBlog {
+  background-color: #496065;
+  width: 100%; 
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 60px;
+}
+
+.subArticleBlog{
+  width: 80%;
+}
+
+.megaGallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryContainer{
+  margin: auto;
+  width: 85%;
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+  display: inline-block; 
+
+}
+
+.galleryPhoto{
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  position: relative; 
+  display: block;
+}
+
+.galleryPhoto img{
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+
+.photoTag {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    height: 180px;
+    text-align: center;
+}
+
+/* service part */
+.service{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.servicedetails{
+  width: 100%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+.sigleService img{
+height: 200px;
+width: 300px;
+margin: 20px;
+}
+
+.sigleService button{
+    background-color: transparent;
+    border: 1px solid rgb(37, 141, 124);
+    color: rgb(37, 141, 124);
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    outline: none; 
+}
+
+button:hover {
+  background-color: rgb(37, 141, 124);
+  color: white;
+}
+
+
+/* shop hardware */
+.shopHardware{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.quicklyCustomers{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.quicklyCustomerLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quicklyCustomerLogo img{
+  margin: 20px;
+  border-radius: 50px;
+  margin-top: 80px;
 }
