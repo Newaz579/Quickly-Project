@@ -51,3 +51,85 @@
     width: 80%;
     text-align: center;
 }
+
+
+.pricing{
+    margin: auto;
+    width: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 100px;
+
+}
+
+.subPricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.salesAndMarketing{
+    background-color: #ffffff;
+    border: 1px solid #34c4a5;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.allInOne{
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.large {
+    font-size: 24px; /* Adjust the size as needed */
+}
+.small {
+    font-size: 14px; /* Adjust the size as needed */
+}
+
+.featuresColors{
+    color: gray;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.salesDescription{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.singleDescription{
+    border-top: 2px solid #9bbb65;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: #ffffff;
+}
+
+
+.hrr{
+    width: 80%;
+    margin: auto;
+}
+
+.freeAccess{
+    margin-top: 80px;
+}
+
+.spancolor{
+    color: blue;
+}
+
+.restroGreen{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
