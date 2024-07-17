@@ -1,0 +1,53 @@
+.headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+.freeTrialButton{
+    background-color: rgb(12, 65, 139);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* article part  */
+.articleDescrip{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.additionalFeatures{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.singleFeatures{
+    padding: 30px;
+}
+
+.business{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
